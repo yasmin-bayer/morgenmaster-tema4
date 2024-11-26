@@ -5,14 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MorgenMaster</title>
     <meta name="description" content="Bootstrap Template">
+    <script src="https://kit.fontawesome.com/f02574985c.js" crossorigin="anonymous"></script>
 
     <!-- Styles -->
     <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="style.css">
     <!-- Scripts -->
     <script src="js/vendor/bootstrap.bundle.min.js" defer></script>
     <script src="js/script.js" defer></script>
+
+
+    <div class="top-bar">
+        <div class="left">
+            <i class="fa-regular fa-clock"></i>
+        </div>
+        <div class="right">
+            <i class="fa-solid fa-wifi"></i>
+            <i class="fa-solid fa-battery-empty"></i>
+        </div>
+    </div>
 </head>
 <body class="min-vh-100 overflow-y-scroll d-flex flex-column">
     <header>
@@ -20,24 +32,46 @@
     </header>
 
     <main class="flex-grow-1">
-        <section class="container mt-4">
-            <h2>Din morgen. din sejr. start dagen stærkt</h2>
+        <section class="tekstfelt">
+            <h3>Din morgen. din sejr. start dagen stærkt</h3>
             <h1>Velkommen Kristian</h1>
-            <p>
-
-            </p>
-            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
-            </div>
-
-            <button type="button" class="btn btn-primary">Primary</button>
         </section>
+
+        <section>
+        <img src="Billederindex/streak.png" height="103" width="201"/>
+        <img src="Billederindex/ur.png" height="103" width="176"/>
+        </section>
+            <p>
+            <h2>Mine Checklister</h2>
+            </p>
+
+        <section class="Widgets">
+            <div>
+        <img src="morgengul.png" alt="morgen rutine">
+        <img src="Billederindex/Sten.png" alt="Zen tid">
+        <img src="Billederindex/Blå.png" alt="Blå">
+            </div>
+        </section>
+
+        <section class="col-12 graf">
+            <h2>Produktivitetstracker</h2>
+            <img src="Rectangle%2024.png">
+        </section>
+
     </main>
 
     <footer class="text-center text-muted mt-4">
-        <p>Hej med jer gamle</p>
-        <i class="fa-regular fa-calendar-days"></i>
-        <span class="fa-regular fa-calendar-days"></span>
+        <div class="icon-bar">
+            <i class="fa-solid fa-train"></i>
+            <i class="fa-regular fa-calendar-days"></i>
+            <div class="position-relative">
+                <img src="footer/Logo.png" alt="Logo" class="logo">
+            </div>
+            <i class="fa-regular fa-circle-check"></i>
+            <i class="fa-solid fa-gear"></i>
+
+        </div>
+
     </footer>
 </body>
 </html>

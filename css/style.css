@@ -1,3 +1,18 @@
-/*
- * Write your own styles in this file
- */
+.h1{
+    font-family:"Roboto Light";
+}
+
+.ul checkliste li{
+
+}
+
+.div{
+    background-color: #f69320;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

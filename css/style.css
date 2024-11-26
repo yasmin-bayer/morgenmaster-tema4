@@ -1,18 +1,63 @@
-.h1{
-    font-family:"Roboto Light";
-}
+ body {
+      background: #ececec;
+    }
 
-.ul checkliste li{
+    .top-section {
+      background: linear-gradient(to right, #fff, #d9d2d2);
+      padding: 20px;
+      border-radius: 15px;
+    }
 
-}
+    .btn-pill {
+      border-radius: 50px;
+      padding: 10px 20px;
+      background-color: #d9eaff;
+      color: #000;
+      border: none;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
 
-.div{
-    background-color: #f69320;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+    .btn-pill:hover {
+      background-color: #aacfff;
+    }
+
+    .map-container {
+      border-radius: 15px;
+      overflow: hidden;
+      margin-bottom: 20px;
+    }
+
+    .custom-card {
+      background-color: #d9eaff;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+      text-align: center;
+    }
+
+    .footer-bar {
+      background-color: #f69320;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 10px 0;
+    }
+
+    .footer-bar button {
+      background: none;
+      border: none;
+      font-size: 25px;
+      color: black;
+    }
+
+    .footer-bar button:hover {
+      transform: scale(1.2);
+    }
+
+    .logo {
+      height: 50px;
+    }

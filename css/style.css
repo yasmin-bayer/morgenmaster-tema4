@@ -127,7 +127,7 @@ body {
     justify-content: space-between; /* Skubber indhold til venstre og højre */
     align-items: center; /* Vertikalt centreret */
     padding: 10px; /* Giver plads omkring elementerne */
-    background-color: /* Valgfri baggrundsfarve */
+
 }
 
 .left, .right {

@@ -301,27 +301,3 @@
     display: none;
 }
 
-.image-widget {
-    position: relative; /* For at positionere tekst relativt til billedet */
-    width: 300px; /* Juster til billedets bredde */
-    height: 200px; /* Juster til billedets højde */
-}
-
-.image-widget img {
-    width: 100%; /* Billedet fylder hele containeren */
-    height: 100%; /* Sørg for billedet dækker hele pladsen */
-    object-fit: cover; /* Holder billedets proportioner */
-}
-
-.text-overlay {
-    position: absolute; /* Gør teksten lagdelt ovenpå billedet */
-    top: 50%; /* Centrer lodret */
-    left: 50%; /* Centrer vandret */
-    transform: translate(-50%, -50%); /* Flyt teksten til det præcise center */
-    color: white; /* Gør teksten synlig */
-    background-color: rgba(0, 0, 0, 0.5); /* Gennemsigtig sort baggrund for bedre læsbarhed */
-    padding: 10px; /* Tilføj lidt afstand omkring teksten */
-    border-radius: 8px; /* Runde hjørner for et moderne look */
-    font-size: 1.2em; /* Juster tekstens størrelse */
-    text-align: center; /* Centrer teksten */
-}

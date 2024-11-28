@@ -5,6 +5,7 @@
 
 
 
+
 /*Checklist side*/
 function toggleCheck(circle) {
     circle.classList.toggle("checked"); // Tilføjer eller fjerner klassen "checked"
